@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIL Navigation Sitemap</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 20px; background-color: #f4f4f9; }
+        h1 { color: #006747; border-bottom: 2px solid #006747; padding-bottom: 10px; }
+        .instructions { font-style: italic; color: #666; margin-bottom: 20px; }
+        
+        /* Accordion Styling */
+        details { background: #fff; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ddd; transition: all 0.3s ease; }
+        summary { padding: 15px; font-weight: bold; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; color: #006747; outline: none; }
+        summary::-webkit-details-marker { display: none; }
+        summary::after { content: "▶"; font-size: 0.8em; color: #d4af37; transition: transform 0.3s; }
+        details[open] summary::after { transform: rotate(90deg); }
+        details[open] { border-color: #d4af37; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        
+        /* Content Styling */
+        .content { padding: 15px 25px; border-top: 1px solid #eee; background-color: #fafafa; }
+        ul { margin: 0; padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        .sub-category { font-weight: bold; color: #444; margin-top: 10px; display: block; }
+        .highlight { color: #d4af37; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h1>CIL Redesign Sitemap</h1>
+    <p class="instructions">Click on any section below to explore the sub-menus and content.</p>
+
+    <details>
+        <summary>1. Home</summary>
+        <div class="content">
+            <p><strong>Hero:</strong> Announcements & New in AI spotlight.</p>
+            <p><strong>Quick Actions:</strong> Submit EDMS Request | Book the VR Lab | Workshop Calendar.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>2. Services</summary>
+        <div class="content">
+            <span class="sub-category">EdTech VR Lab</span>
+            <ul>
+                <li>Lab Concept & Mission</li>
+                <li>VR/AR Hardware Catalog</li>
+                <li>Subject-Specific Apps (Medicine, STEM, Business)</li>
+                <li><span class="highlight">Book a Session/Demo</span></li>
+            </ul>
+
+            <span class="sub-category">Multimedia Production</span>
+            <ul>
+                <li>Video & Audio Recording</li>
+                <li>Lightboard Sessions</li>
+                <li>Green Screen Production</li>
+            </ul>
+
+            <span class="sub-category">Graphic & Instructional Design</span>
+            <ul>
+                <li>Infographics & Posters</li>
+                <li>Articulate Rise Development</li>
+                <li>Animation & Assets</li>
+            </ul>
+
+            <span class="sub-category">Consultation Services</span>
+            <ul>
+                <li>Course Design & Pedagogy</li>
+                <li>AI Integration in Curriculum</li>
+                <li>Blackboard Ultra Migration</li>
+            </ul>
+
+            <span class="sub-category">EDMS Portal</span>
+            <ul>
+                <li>Official Service Request Link</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary>3. Teaching & Design</summary>
+        <div class="content">
+            <ul>
+                <li><strong>Course Design:</strong> Module mapping, Learning Outcomes, and Syllabus templates.</li>
+                <li><strong>Instructional Strategies:</strong> Active Learning, Flipped Classroom, Hybrid teaching.</li>
+                <li><strong>Assessment & Integrity:</strong> Rubrics, Alternative Assessment, and AI-policy guidance.</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary>4. Tutorial Hub</summary>
+        <div class="content">
+            <span class="sub-category">Blackboard Ultra</span>
+            <p>Full migration and grading guides.</p>
+
+            <span class="sub-category">AI for Educators</span>
+            <ul>
+                <li>Prompt engineering</li>
+                <li>Scopus AI</li>
+                <li>AI-assisted grading</li>
+            </ul>
+
+            <span class="sub-category">EdTech Tools</span>
+            <ul>
+                <li>Padlet, Kahoot, Wayground, Panopto</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary>5. Professional Development</summary>
+        <div class="content">
+            <ul>
+                <li><strong>Workshop Calendar:</strong> Live sessions and upcoming events.</li>
+                <li><strong>Workshop Archive:</strong> Historical recordings and slide decks.</li>
+                <li><strong>Podchats:</strong> Audio/Video pedagogy discussions.</li>
+                <li><strong>Faculty Fellows:</strong> Current projects and Meet the Fellows.</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary>6. Get in Touch</summary>
+        <div class="content">
+            <ul>
+                <li><strong>Meet the Team:</strong> Staff expertise and directory.</li>
+                <li><strong>Locations:</strong> Beirut and Byblos Office.</li>
+                <li><strong>News:</strong> CIL blog and What's New.</li>
+            </ul>
+        </div>
+    </details>
+
+</body>
+</html>
